@@ -31,6 +31,6 @@ template '/etc/init.d/mkswap' do
   :date => Time.now,
  })
  notifies :enable, 'service[mkswap]', :immediately
- notifies :start,  'service[mkswap]', :immediately
+# notifies :start,  'service[mkswap]', :immediately # only single mode - next reboot
 end
 
