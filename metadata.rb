@@ -1,0 +1,7 @@
+name             'chef-mkswap'
+maintainer       'PE, pf.'
+maintainer_email 'peychart@mail.pf'
+license          'GNU Public License 3.0'
+description      'Installs/Configures chef-mkswap'
+long_description 'Installs/Configures chef-mkswap'
+version          '0.1.0'
